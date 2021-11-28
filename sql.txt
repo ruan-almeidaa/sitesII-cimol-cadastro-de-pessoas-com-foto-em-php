@@ -1,0 +1,6 @@
+CREATE TABLE `cadastrodeusuarios`.`pessoas` (
+  `idPessoa` INT NOT NULL AUTO_INCREMENT,
+  `nomePessoa` VARCHAR(45) NOT NULL,
+  `emailPessoa` VARCHAR(45) NOT NULL,
+  `fotoPessoa` VARCHAR(45) NULL,
+  PRIMARY KEY (`idPessoa`));
